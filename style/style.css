@@ -1,3 +1,19 @@
 * {
   border: solid black 1px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(85, 15, 155);
+}
+
+.information-card-header {
+  background-color: rgb(85, 15, 155);
+}
+
+.calendar-card-header {
+  background-color: rgb(145, 40, 225);
 }/*# sourceMappingURL=style.css.map */
