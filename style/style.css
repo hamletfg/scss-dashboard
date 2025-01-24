@@ -15,10 +15,18 @@ header {
   justify-content: space-between;
 }
 
+.sidebar-content {
+  flex-flow: column;
+}
+
 .information-card-header {
   background-color: rgb(85, 15, 155);
+  display: flex;
+  justify-content: space-between;
 }
 
 .calendar-card-header {
   background-color: rgb(145, 40, 225);
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

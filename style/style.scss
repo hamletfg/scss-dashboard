@@ -18,10 +18,18 @@ header {
   justify-content: space-between;
 }
 
+.sidebar-content {
+  flex-flow: column;
+}
+
 .information-card-header {
   background-color: $primary-purple;
+  display: flex;
+  justify-content: space-between;
 }
 
 .calendar-card-header {
   background-color: $primary-pink;
+  display: flex;
+  justify-content: space-between;
 }
