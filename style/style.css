@@ -8,6 +8,9 @@ body {
 
 header {
   background-color: rgb(85, 15, 155);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .information-card-header {
