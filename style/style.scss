@@ -11,6 +11,9 @@ body {
 
 header {
   background-color: $primary-purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .information-card-header {
