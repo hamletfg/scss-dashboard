@@ -11,9 +11,11 @@ body {
 
 header {
   background-color: $primary-purple;
+}
+
+.top-bar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .information-card-header {
