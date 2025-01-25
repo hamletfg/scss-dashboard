@@ -13,16 +13,40 @@ header {
 .top-bar {
   display: flex;
   justify-content: space-between;
+  height: 70px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px; /*Might move this line. Makes padding to the right for the calendar.*/
+}
+
+.main-content-body {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sidebar-content {
   flex-flow: column;
+  width: 200px;
+}
+
+.information-cards {
+  width: 350px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .information-card-header {
   background-color: rgb(85, 15, 155);
   display: flex;
   justify-content: space-between;
+}
+
+.calendar-card {
+  background-color: rgb(50, 50, 50);
+  width: 350px;
 }
 
 .calendar-card-header {
