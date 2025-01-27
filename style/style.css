@@ -44,11 +44,6 @@ h1, h3, h4 {
   padding-right: 20px; /*Might move this line. Makes padding to the right for the calendar.*/
 }
 
-.main-content-body {
-  display: flex;
-  justify-content: space-around;
-}
-
 .sidebar-content {
   display: flex;
   flex-flow: column wrap;
@@ -64,8 +59,19 @@ h1, h3, h4 {
   padding-top: 5px;
 }
 
+.main-content {
+  width: 82%;
+}
+
+.main-content-body {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
 .information-cards {
-  width: 40%;
+  display: flex;
+  flex-flow: row;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -85,7 +91,7 @@ h1, h3, h4 {
 }
 
 .calendar-card {
-  width: 40%;
+  width: 25%;
 }
 
 .calendar-card-header {
