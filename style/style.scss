@@ -111,40 +111,43 @@ a {
 
 .information-cards {
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
   padding-left: 20px;
   padding-right: 20px;
+  width: 70%;
 }
 
 .card-body-1 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: auto;
 }
 
 .card-body-2 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: auto;
 }
 
 .card-body-3 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: auto;
 }
 
 .card-body-4 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: auto;
 }
 
 .varsity-image-1 {
+  border-radius: 20px;
   width: 100%;
 }
 
 .JV-image-1 {
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -155,11 +158,12 @@ a {
 }
 
 .calendar-card {
-  width: 60%;
+  width: 30%;
   height: 600px;
 }
 
 .calendar-image {
+  border-radius: 20px;
   width: 100%;
 }
 
