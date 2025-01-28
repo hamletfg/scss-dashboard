@@ -103,25 +103,25 @@ a {
 .card-body-1 {
   padding: 10px;
   width: 30%;
-  height: 46%;
+  height: 330px;
 }
 
 .card-body-2 {
   padding: 10px;
   width: 30%;
-  height: 46%;
+  height: 330px;
 }
 
 .card-body-3 {
   padding: 10px;
   width: 30%;
-  height: 46%;
+  height: 330px;
 }
 
 .card-body-4 {
   padding: 10px;
   width: 30%;
-  height: 46%;
+  height: 330px;
 }
 
 .varsity-image-1 {
@@ -139,7 +139,12 @@ a {
 }
 
 .calendar-card {
-  width: 25%;
+  width: 60%;
+  height: 600px;
+}
+
+.calendar-image {
+  width: 100%;
 }
 
 .calendar-card-header {
