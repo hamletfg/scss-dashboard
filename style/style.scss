@@ -102,33 +102,34 @@ a {
 
 .information-cards {
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
   padding-left: 20px;
   padding-right: 20px;
+  width: 70%;
 }
 
 .card-body-1 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: 30px;
 }
 
 .card-body-2 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: 40px;
 }
 
 .card-body-3 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: 40px;
 }
 
 .card-body-4 {
   padding: 10px;
-  width: 30%;
-  height: 330px;
+  width: 40%;
+  height: 40px;
 }
 
 .varsity-image-1 {
@@ -146,7 +147,7 @@ a {
 }
 
 .calendar-card {
-  width: 60%;
+  width: 30%;
   height: 600px;
 }
 
