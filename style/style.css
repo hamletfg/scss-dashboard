@@ -87,6 +87,15 @@ a {
   width: 82%;
 }
 
+.main-content-header {
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.material-icons.blue-icon {
+  color: rgb(76, 144, 217);
+}
+
 .main-content-body {
   display: flex;
   justify-content: space-between;
